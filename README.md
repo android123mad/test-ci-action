@@ -1,3 +1,3 @@
 # test-ci-action
 
-bump
+bump v2

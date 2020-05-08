@@ -12,5 +12,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
       with:
         ftp-server: ftp.usefulness.altervista.org
-        ftp-username: ${{ secrets.FTP_USERNAME }}
+        ftp-username: usefulness
         ftp-password: ${{ secrets.FTP_PASSWORD }}

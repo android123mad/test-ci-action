@@ -14,4 +14,4 @@ jobs:
         ftp-server: ftp.usefulness.altervista.org
         ftp-username: usefulness
         ftp-password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: test-ci
+        local-dir: /test-ci

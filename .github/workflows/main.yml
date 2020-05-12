@@ -11,7 +11,6 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
       with:
-        ftp-server: ftp.usefulness.altervista.org
+        ftp-server: ftp.usefulness.altervista.org/test-ci/
         ftp-username: usefulness
         ftp-password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: test-ci/
